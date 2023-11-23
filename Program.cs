@@ -6,21 +6,26 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
 
-Console.WriteLine("Введите первое число: ");
-int firstNumber = Convert.ToInt32(Console.ReadLine());
+using System.Runtime.ExceptionServices;
 
-Console.WriteLine("Введите второе число: ");
-int secondNumber = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите первое число число");
+int firstNum = Convert.ToInt32 (Console.ReadLine());
 
-if (firstNumber > secondNumber)
+System.Console.WriteLine("Введите второе число");
+int secondNum = Convert.ToInt32 (Console.ReadLine ());
+
+if (firstNum > secondNum)
 {
-    Console.WriteLine(firstNumber + " > " + secondNumber);
+    System.Console.WriteLine(firstNum + ">" + secondNum);
+
 }
-else if (secondNumber > firstNumber)
+else if (secondNum > firstNum)
 {
-    Console.WriteLine(secondNumber + " > " + firstNumber);
+    System.Console.WriteLine(secondNum + ">" + firstNum);
+
 }
 else
 {
-    Console.WriteLine(secondNumber + " = " + firstNumber);
+    System.Console.WriteLine(firstNum + "=" + secondNum);
+
 }
